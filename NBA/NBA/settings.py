@@ -25,7 +25,7 @@ SECRET_KEY = '8qo!82m15u%lh6^1=jz#ik151$gkn&zo-8btdy+7$_nuik@0as'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['127.0.0.1:8000']
 
 
 # Application definition
@@ -76,8 +76,11 @@ WSGI_APPLICATION = 'NBA.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'nba_stats',
+        'HOST' : '127.0.0.1',
+        'USER' : 'root',
+        'PASSWORD': '4538'
     }
 }
 
