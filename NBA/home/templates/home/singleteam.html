@@ -1,0 +1,29 @@
+{% extends "home/base.html" %}
+{% load static %}
+{% block content %}
+<div class="media-body">
+    <h2><a class="article-title" href="#">Test</a></h2>
+    <p class="article-content"></p>
+  </div>
+
+  <h2 style="padding-top:30px;">
+    <a class="article-title" href="#">
+      Milwaukee Bucks
+    </a>
+  </h2>
+
+  <div>
+      <ul class='list-group'>
+        <li>NAME: MILWAUKEE BUCKS </li>	
+        <li>CONFERENCE: EAST</li>	
+        <li>GAMES PLAYED: 72</li>	
+        <li>POINTS PER GAME: 133.7</li>
+        <li>POINTS ALLOWED PER GAME: 107.3</li>	
+        <li>WINS: 48</li>
+        <li>LOSSES: 24</li>
+      </ul>
+      <ul class='list-group'>
+        <a class="article-title" href="{% url 'watchlist1' %}">Add to watchlist</a>
+      </ul>
+  </div>
+{% endblock content %}

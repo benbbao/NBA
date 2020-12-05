@@ -1,0 +1,32 @@
+{% extends "home/base.html" %}
+{% load static %}
+{% block content %}
+  <div class="media-body">
+    <h2><a class="article-title" href="#">Test</a></h2>
+    <p class="article-content"></p>
+  </div>
+
+  <h2 style="padding-top:30px;">
+    <a class="article-title" href="#">
+      Watchlist
+    </a>
+  </h2>
+
+  <h3 style="padding-top:30px;">
+    <a class="article-title" href="#">
+      Players
+    </a>
+  </h3>
+
+  <h3 style="padding-top:30px;">
+    <a class="article-title" href="#">
+      Teams
+    </a>
+    <div>
+      <ul class='list-group' style="font: 1em sans-serif; padding-top: 30px;">
+        <a class="article-title" href="{% url 'bucks' %}">>Milwaukee Bucks</a>
+        <a class="article-title" href="{% url 'jazz' %}">>Utah Jazz</a>
+      </ul>
+    </div>
+  </h3>
+{% endblock content %}

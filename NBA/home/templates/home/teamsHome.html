@@ -2,13 +2,48 @@
 {% load static %}
 {% block content %}
   <div class="media-body">
-    <h2><a class="article-title" href="#">Test</a></h2>
+    <h2><a class="article-title" href="#">Test</h2>
     <p class="article-content"></p>
   </div>
 
   <h2 style="padding-top:30px;">
     <a class="article-title" href="#">
       All Teams
-    </a>
+    
   </h2>
+
+  <div>
+      <ul class='list-group'>
+            <a class="article-title" href="{% url 'homepage' %}">Houston Rockets</a>
+            <a class="article-title" href="{% url 'homepage' %}">Dallas Mavericks</a>
+            <a class="article-title" href="{% url 'homepage' %}">LA Clippers</a>
+            <a class="article-title" href="{% url 'homepage' %}">New Orleans Pelicans</a>
+            <a class="article-title" href="{% url 'homepage' %}">Portland Trail Blazers</a>
+            <a class="article-title" href="{% url 'bucks' %}">Milwaukee Bucks</a>
+            <a class="article-title" href="{% url 'homepage' %}">Washington Wizards</a>
+            <a class="article-title" href="{% url 'homepage' %}">San Antonio Spurs</a>
+            <a class="article-title" href="{% url 'homepage' %}">Boston Celtics</a>
+            <a class="article-title" href="{% url 'homepage' %}">Phoenix Suns</a>
+            <a class="article-title" href="{% url 'homepage' %}">Los Angeles Lakers</a>
+            <a class="article-title" href="{% url 'homepage' %}">Minnesota Timberwolves</a>
+            <a class="article-title" href="{% url 'homepage' %}">Toronto Raptors</a>
+            <a class="article-title" href="{% url 'homepage' %}">Memphis Grizzlies</a>
+            <a class="article-title" href="{% url 'homepage' %}">Miami Heat</a>
+            <a class="article-title" href="{% url 'homepage' %}">Brooklyn Nets</a>
+            <a class="article-title" href="{% url 'homepage' %}">Atlanta Hawks</a>
+            <a class="article-title" href="{% url 'homepage' %}">Utah Jazz</a>
+            <a class="article-title" href="{% url 'homepage' %}">Denver Nuggets</a>
+            <a class="article-title" href="{% url 'homepage' %}">Philadelphia 76ers</a>
+            <a class="article-title" href="{% url 'homepage' %}">Oklahoma City Thunder</a>
+            <a class="article-title" href="{% url 'homepage' %}">Sacramento Kings</a>
+            <a class="article-title" href="{% url 'homepage' %}">Indiana Pacers</a>
+            <a class="article-title" href="{% url 'homepage' %}">Orlando Magic</a>
+            <a class="article-title" href="{% url 'homepage' %}">Detroit Pistons</a>
+            <a class="article-title" href="{% url 'homepage' %}">Cleveland Cavaliers</a>
+            <a class="article-title" href="{% url 'homepage' %}">Chicago Bulls</a>
+            <a class="article-title" href="{% url 'homepage' %}">Golden State Warriors</a>
+            <a class="article-title" href="{% url 'homepage' %}">New York Knicks</a>
+            <a class="article-title" href="{% url 'homepage' %}">Charlotte Hornets</a>            
+      </ul>
+  </div>
 {% endblock content %}

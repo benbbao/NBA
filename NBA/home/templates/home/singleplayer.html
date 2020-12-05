@@ -1,0 +1,33 @@
+{% extends "home/base.html" %}
+{% load static %}
+{% block content %}
+<div class="media-body">
+    <h2><a class="article-title" href="#">Test</a></h2>
+    <p class="article-content"></p>
+  </div>
+
+  <h2 style="padding-top:30px;">
+    <a class="article-title" href="#">
+      Steven Adams
+    </a>
+  </h2>
+
+  <div>
+      <ul class='list-group'>
+        <li>NAME: Steven Adams </li>	
+        <li>TEAM: OKLAHOMA CITY THUNDER</li>	
+        <li>POSITION: CENTER</li>
+        <li>GAMES PLAYED: 63</li>	
+        <li>MINUTES PLAYED PER GAME: 26.7</li>	
+        <li>POINTS PER GAME: 10.9</li>
+        <li>REBOUNDS PER GAME: 9.3</li>	
+        <li>ASSITS PER GAME: 2.3</li>
+        <li>STEALS PER GAME: 0.8</li>
+        <li>BLOCKS PER GAME: 1.1</li>
+        <li>TURNOVERS PER GAME: 1.5</li>
+      </ul>
+      <ul class='list-group'>
+        <a class="article-title" href="{% url 'watchlist2' %}">Add to watchlist</a>
+      </ul>
+  </div>
+{% endblock content %}

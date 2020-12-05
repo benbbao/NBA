@@ -28,21 +28,22 @@
 
           <div class="media-body">
             <h2><a class="article-title" href="#"></a></h2>
+            <!-- Load icon library -->
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-            <link rel="stylesheet" type="text/css" href="{% static 'home/autocomplete.css' %}">
-            
-            <h2 style="padding-top:50px;">
-              <a class="article-title" href="{% url 'teams-homepage' %}">Teams</a>
+            <link rel="stylesheet" type="text/css" href="{% static 'home/search.css' %}">
+
+            <h2 style="padding-top:30px;">
+              <a class="article-title" href="{% url 'teams-homepage' %}">
+                Teams
+              </a>
             </h2>
 
-             <!--Make sure the form has the autocomplete function switched off:-->
-            <form autocomplete="off" action="/action_page.php">
-              <div class="autocomplete" style="width:300px;">
-                <input id="myInput" type="text" name="myCountry" placeholder="Team Name">
-              </div>
-              <input type="submit">
+              <!-- The form -->   
+            <form class="example" action="{% url 'heat' %}">
+              <input type="text" placeholder="Team Name" name="search">
+              <button type="submit"><i class="fa fa-search"></i></button>
             </form>
-
-            <script src="{% static 'home/autocomplete.js' %}"></script>
           </div>
+
 {% endblock content %}
