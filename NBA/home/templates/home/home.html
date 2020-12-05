@@ -14,7 +14,7 @@
             <link rel="stylesheet" type="text/css" href="{% static 'home/search.css' %}">
 
             <h2 style="padding-top:30px;">
-              <a class="article-title" href="#">
+              <a class="article-title" href="{% url 'players-homepage' %}">
                 Players
               </a>
             </h2>
@@ -32,7 +32,7 @@
             <link rel="stylesheet" type="text/css" href="{% static 'home/autocomplete.css' %}">
             
             <h2 style="padding-top:50px;">
-              <a class="article-title" href="#">Teams</a>
+              <a class="article-title" href="{% url 'teams-homepage' %}">Teams</a>
             </h2>
 
              <!--Make sure the form has the autocomplete function switched off:-->

@@ -25,6 +25,7 @@
             <div class="collapse navbar-collapse" id="navbarToggle">
               <div class="navbar-nav mr-auto">
                 <a class="nav-item nav-link" href="{% url 'homepage' %}">Home</a>
+                <a class="nav-item nav-link" href="{% url 'watchlist' %}">Watchlist</a>
               </div>
               <!-- Navbar Right Side -->
               <div class="navbar-nav">
@@ -44,8 +45,8 @@
             <div class="content-section">
               <h3>COMPARE</h3>
                 <ul class="list-group">
-                  <a class="list-group-item list-group-item-light nav-item nav-link" href="{% url 'homepage' %}">Players</a>
-                  <a class="list-group-item list-group-item-light nav-item nav-link" href="{% url 'homepage' %}">Teams</a>
+                  <a class="list-group-item list-group-item-light nav-item nav-link" href="{% url 'compare-players' %}">Players</a>
+                  <a class="list-group-item list-group-item-light nav-item nav-link" href="{% url 'compare-teams' %}">Teams</a>
                 </ul>
             </div>
           </div>
