@@ -17,9 +17,17 @@ players as users who often bet on NBA games will also find player and team stati
 very useful in determining who and how much money to bet on a certain game, what
 kind of spread they might want to use, and which players might outperform the best.
 
+Video run through of final product 
+
+https://drive.google.com/file/d/15YnhKYbPaUCM07ng1jJB_uavv5lIU8n5/view?usp=sharing
 
 More in depth info and Relational Database Schema 
 
 
 [Project Stage 2.pdf](https://github.com/benbbao/NBA/files/6436536/Project.Stage.2.pdf)
 
+
+[Bao, Goldberg, Laplante Project Stage 3 .pdf](https://github.com/benbbao/NBA/files/6436544/Bao.Goldberg.Laplante.Project.Stage.3.pdf)
+
+
+[Project Final Report.pdf](https://github.com/benbbao/NBA/files/6436554/Project.Final.Report.pdf
