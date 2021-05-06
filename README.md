@@ -21,4 +21,5 @@ kind of spread they might want to use, and which players might outperform the be
 More in depth info and Relational Database Schema 
 
 
+[Project Stage 2.pdf](https://github.com/benbbao/NBA/files/6436536/Project.Stage.2.pdf)
 
